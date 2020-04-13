@@ -1,6 +1,5 @@
 pipeline {
     environment {
-        REGISTRY_CRED = credentials("bosch_acr")
         CONTAINER_REGISTRY = "bosch.azurecr.io"
         IMAGE_ID = "$CONTAINER_REGISTRY/bosch-data-service"
     }
